@@ -5,7 +5,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-import { RouterModule,Routes } from '@angular/router'
+import { RouterModule,Routes } from '@angular/router';
+import { UserComponent } from './user/user.component'
+import {UserService} from './user.service';
+
 
 const appRoutes:Routes = [
   {
@@ -24,7 +27,9 @@ const appRoutes:Routes = [
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    UserComponent,
+    
   ],
   imports: [
     BrowserModule,

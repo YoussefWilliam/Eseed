@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
     var password = e.target.elements[1].value;
     
     if((username == 'admin' && password == 'admin') || (username == 'admin1' && password == 'admin1')){
-      this.router.navigate(['dashboard']);
+      this.router.navigate(['dashboard'],username);
     }
     
   }

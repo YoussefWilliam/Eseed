@@ -1,0 +1,33 @@
+{
+  "name": "mysql-express",
+  "version": "1.0.0",
+  "description": "Connecting mysql to express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "George",
+  "license": "ISC",
+  "dependencies": {
+    "angular2-cookie": "^1.2.6",
+    "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "helmet": "^3.12.0",
+    "jsonwebtoken": "^8.2.1",
+    "moment": "^2.22.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.4",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^1.0.0"
+  }
+}
